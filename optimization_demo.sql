@@ -60,3 +60,17 @@ select
 
 ;
 
+SELECT COUNT(opt_db.opt_products.product_id) FROM opt_db.opt_products;
+
+DESCRIBE opt_products;
+
+DESCRIBE opt_clients;
+
+USE opt_db;
+DROP TABLE IF EXISTS opt_db.opt_clients;
+DROP TABLE IF EXISTS opt_db.opt_orders;
+DROP TABLE IF EXISTS opt_db.opt_products;
+
+
+
+
